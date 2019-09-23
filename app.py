@@ -20,7 +20,7 @@ import requests
 app = Flask(__name__)
 
 CLIENT_ID = json.loads(
-    open('client_secrets_info.json', 'r').read())['web']['client_id']
+    open('client_secrets.json', 'r').read())['web']['client_id']
 
 # DB handler code
 engine = create_engine(
