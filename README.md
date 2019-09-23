@@ -11,20 +11,24 @@ Develop Item Catalog application that provides a list of items within a variety 
 ## Steps to run project
 1. Download and Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) (if not using base OS).
 2. Clone/Download Vagrant VM configuration provided by [Udacity](https://github.com/udacity/fullstack-nanodegree-vm) (if not using base OS)
-3. In Case of Vagrant VM, go to vagrant config location and perform following actions:
+3. In case of Vagrant VM, go to vagrant config location and perform following actions:
 ```vagrant up
+vagrant up
 vagrant ssh
 cd /vagrant/
 git clone https://github.com/rubinsaifi/Item-catalog.git
 ```
-
 In case using BareMetal machine, go to project folder
+
 4. Install Python packages
 ```pip install -r requirements.txt```
+
 5. Setup SQLite DB
 ```python database_setup.py```
+
 6. Add Initial Items to SQLite DB
 ```python fake_item_populator.py```
+
 7. Signup for Google oAuth and update following values in client_secrets.json:
 ```
 "client_id": "SIGNUP-FOR-CLIENT-ID,
@@ -34,9 +38,10 @@ In case using BareMetal machine, go to project folder
 
 8. Run Python Application
 ```python app.py````
+
 9. Open `http://localhost:5000/' in Browser-of-Choice
 
-## Feature Request and Bugs
+## Feature request and Bugs
 This project is a part of Nanodegree although you can sent pull requests by forking this project
 
 ## Licence
