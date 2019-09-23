@@ -33,9 +33,9 @@ git clone https://github.com/rubinsaifi/Item-catalog.git
 ```
 
 8. Run Python Application
-```python app.py````
+```python app.py```
 
-9. Open `http://localhost:5000/' in Browser-of-Choice
+9. Open ```http://localhost:5000``` in Browser-of-Choice
 
 ## Feature request and Bugs
 This project is a part of Nanodegree although you can sent pull requests by forking this project
